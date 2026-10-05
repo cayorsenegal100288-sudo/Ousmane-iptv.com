@@ -23,7 +23,7 @@ jobs:
           npm install -g m3u-linter || true
           cat <<EOF > M3u-linter.config.json
             {
-              "files": ["playlist1.m3u", "playlist2.m3u"],
+              "files": ["playlist.m3u8"],
               "rules": {
                 "no-empty-lines": true,
                 "require-header": true,
@@ -38,14 +38,48 @@ jobs:
               }
             }
           EOF
-          ls -lar ./ || true
-          cat playlist.m3u8 || true
-          m3u-linter -c ./M3u-linter.config.json ./playlist.m3u8
+          m3u-linter -c ./M3u-linter.config.json ./playlist.m3u8 | tee m3u-linter-output.txt || true
+
+      - name: Summarize m3u-linter results
+        if: always()
+        run: |
+          {
+            echo "## m3u-linter results"
+            echo ""
+            echo '```'
+            cat m3u-linter-output.txt 2>/dev/null || echo "(no output)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Install IPTV Checker and check the playlist
         run: |
           npm install -g iptv-checker || true
           mkdir -p output
           sudo apt-get install -y ffmpeg
-          iptv-checker -o output -p 100 -t 120000 ./playlist.m3u8
+          iptv-checker -o output -p 100 -t 120000 ./playlist.m3u8 || true
+
+      - name: Summarize checker results
+        if: always()
+        run: |
+          online=$(grep -c '^#EXTINF' output/online.m3u 2>/dev/null || echo 0)
+          failed=$(grep -c '^#EXTINF' output/failed.m3u 2>/dev/null || echo 0)
+          {
+            echo "## IPTV Checker results"
+            echo ""
+            echo "- Online: $online"
+            echo "- Failed: $failed"
+            echo ""
+            echo "### Failed channels"
+            echo '```'
+            grep '^#EXTINF' output/failed.m3u 2>/dev/null || echo "(none)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload checker results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: iptv-checker-results
+          path: output/
+          retention-days: 14
 

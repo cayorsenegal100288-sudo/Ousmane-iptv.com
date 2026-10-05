@@ -23,7 +23,7 @@ https://en.wikipedia.org/wiki/List_of_4K_channels_in_India
 | 14  | TV9 Kannada      | [>](https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9kanmo6oiq/liveabr/playlist.m3u8) | <img height="20" src="https://i.imgur.com/9rBgkxG.png" /> | TV9Kannada.in |
 | 15  | TV9 Telugu       | [>](https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8) | <img height="20" src="https://i.imgur.com/oHAdC30.png" /> | TV9Telugu.in |
 | 16  | TV9 Marathi      | [>](https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8) | <img height="20" src="https://i.imgur.com/k7urrIv.jpeg" /> | TV9Marathi.in |
-| 17  | Republic Bharat Ⓨ | [>](https://www.youtube.com/watch?v=3DbTO_AMhhc) | <img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Republic_Bharat_logo.svg/500px-Republic_Bharat_logo.svg.png" /> | RepublicBharat.in |
+| 17  | Republic Bharat Ⓨ | [>](https://www.youtube.com/@RepublicBharat/live) | <img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Republic_Bharat_logo.svg/500px-Republic_Bharat_logo.svg.png" /> | RepublicBharat.in |
 | 18  | NDTV Profit      | [>](https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8) | <img height="20" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/NDTV_Profit.svg/1280px-NDTV_Profit.svg.png" /> | NDTVProfit.com |
 | 19  | Asianet News Ⓨ  | [>](https://www.youtube.com/@asianetnews/live) | <img height="20" src="https://i.imgur.com/ofntbBS.png" /> | AsianetNews.com |
 | 20  | Asianet Suvarna News Ⓨ | [>](https://www.youtube.com/@AsianetSuvarnaNews/live) | <img height="20" src="https://i.imgur.com/zRWl97N.jpeg" /> | Kannada.AsianetNews.com |
@@ -31,10 +31,11 @@ https://en.wikipedia.org/wiki/List_of_4K_channels_in_India
 | 22  | News18 India Ⓨ | [>](https://www.youtube.com/@news18india/live) | <img height="20" src="https://i.imgur.com/BR4BUAw.png" /> | News18.com |
 | 23  | CNN-News18 Ⓨ | [>](https://www.youtube.com/@cnnnews18/live) | <img height="20" src="https://i.imgur.com/K3M8MoK.png" /> | News18.com |
 | 24  | News18 UP Uttarakhand Ⓨ | [>](https://www.youtube.com/@News18UPUttarakhand/live) | <img height="20" src="https://i.imgur.com/nKwoe8n.png" /> | News18.com |
+| 25  | News18 Kannada Ⓨ | [>](https://www.youtube.com/@News18Kannada/live) | <img height="20" src="https://i.imgur.com/CQUGLoK.png" /> | News18.com |
+| 26  | News18 Telugu Ⓨ | [>](https://www.youtube.com/@News18Telugu/live) | <img height="20" src="https://i.imgur.com/NsieorM.jpeg" /> | News18.com |
+| 27  | News18 Marathi Ⓨ | [>](https://www.youtube.com/@News18Marathi/live) | <img height="20" src="https://i.imgur.com/orxCvCa.png" /> | News18.com |
 
 <h2>Invalid</h2>
 
 | #   | Channel        | Link  | Logo | EPG id |
 |:---:|:--------------:|:-----:|:----:|:------:|
-| 1   | ABP News         | [x](https://abplivetv.pc.cdn.bitgravity.com/httppush/abp_livetv/abp_abpnews/master.m3u8) | <img height="20" src="https://i.imgur.com/DKHUFVQ.png" /> | ABPNews.in |
-| 2   | ABP Ananda       | [x](https://abplivetv.pc.cdn.bitgravity.com/httppush/abp_livetv/abp_ananda/master.m3u8) | <img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ABP_Ananda_logo.svg/500px-ABP_Ananda_logo.svg.png" /> | ABPAnanda.in |
