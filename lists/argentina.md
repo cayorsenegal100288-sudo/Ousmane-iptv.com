@@ -5,7 +5,7 @@
 <h3>National</h3>
 https://en.wikipedia.org/wiki/List_of_television_stations_in_Argentina#Major_broadcast_networks
 
-| #    | Channel        | Link  | Logo | EPG id |
+| #    todo los canales TV digital argentino  | Link  | Logo | EPG id |
 |:----:|:--------------:|:-----:|:----:|:------:|
 | 3 | TN Todo Noticias Ⓨ  | [>](https://www.youtube.com/c/todonoticias/live) | <img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/200px-TN_todo_noticias_logo.svg.png"/> | TodoNoticias.ar |
 | 22.1 | Encuentro Ⓨ Ⓖ  | [>](https://www.youtube.com/user/encuentro/live) | <img height="20" src="https://i.imgur.com/IyP2UIx.png"/> | Encuentro.ar |
