@@ -1,4 +1,4 @@
-CAYOR TV
+CAYOR TV SN
 =======
 
 This is an M3U playlist for free TV channels around the World.
