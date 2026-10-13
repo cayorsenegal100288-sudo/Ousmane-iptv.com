@@ -1,5 +1,5 @@
-CAYOR TV SN
-=======
+Senegal
+canal tv 
 
 This is an M3U playlist for free TV channels around the World.
 
